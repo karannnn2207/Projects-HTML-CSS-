@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: #c1cfda;
+    background-image: url(job.jpg);
+    background-size: cover;
+}
+
+.container{
+max-width: 900px;
+margin: 0 auto;
+
+}
+
+.applybox{
+    max-width: 600px;
+    padding: 20px;
+    background-color: #7A7D7D;
+    color: #DDDDD3;
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow: 4px 3px 5px #414361;
+    border-radius: 10px;
+}
+
+.formcontainer{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+.formcontrol{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 2px
+}
+
+input,
+select,
+textarea{
+padding: 6px 10px;
+border: 2px solid #DDDDDD;
+border-radius: 5px;
+font-size: 15px;
+;
+
+}
+
+input:focus{
+    outline-color:#706f6f ;
+}
+
+select:focus{
+      outline-color: #706f6f;
+}
+
+textarea:focus{
+      outline-color: #706f6f;
+}
+
+.button_container{
+    display: flex;
+    justify-content: end;
+    
+}
+
+button{
+    background-color:  #F4AC45 ;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 7px;
+    transition: 0.3s ease-in
+}
+button:hover{
+    background-color:   #22007C;
+    border: 2px solid #DDDDDD;
+     color: white0;
+     cursor: pointer;
+}
